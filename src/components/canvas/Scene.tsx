@@ -10,6 +10,8 @@ export default function Scene({ children, ...props }) {
       {children}
       <Preload all />
       <OrbitControls />
+      <gridHelper args={[100, 100]} />
+      <arrowHelper scale={10} />
     </Canvas>
   )
 }

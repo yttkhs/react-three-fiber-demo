@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97c02ac2-3666-4386-8805-441360217ddc" name="変更" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/canvas/Text.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/canvas/Edit.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/edit.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/canvas/Logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/canvas/Logo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dom/Instructions.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/canvas/Blob.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/canvas/Blob.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/canvas/Scene.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/canvas/Scene.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/blob.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blob.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,27 +45,50 @@
     <option name="showLibraryContents" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/yuta/Repositories/github.com/takayuu/react-three-fiber-demo&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/yuta/Repositories/github.com/takayuu/react-three-fiber-demo/node_modules/prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/yuta/Repositories/github.com/takayuu/react-three-fiber-demo/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "/Users/yuta/Repositories/github.com/takayuu/react-three-fiber-demo/src/pages",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "prettierjs.PrettierConfiguration.Package": "/Users/yuta/Repositories/github.com/takayuu/react-three-fiber-demo/node_modules/prettier",
+    "settings.editor.selected.configurable": "AtomSelectConfig",
+    "ts.external.directory.path": "/Users/yuta/Repositories/github.com/takayuu/react-three-fiber-demo/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages" />
+    </key>
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="yarn run next dev" />
+      <command value="yarn run dev" />
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="アプリケーションレベル" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -76,7 +100,16 @@
       <updated>1671439984150</updated>
       <workItem from="1671439985355" duration="2565000" />
       <workItem from="1672047028913" duration="3071000" />
-      <workItem from="1672129791948" duration="5429000" />
+      <workItem from="1672129791948" duration="5501000" />
+      <workItem from="1672137379245" duration="18000" />
+      <workItem from="1672287212989" duration="1454000" />
+      <workItem from="1672371888581" duration="1144000" />
+      <workItem from="1672373376653" duration="6358000" />
+      <workItem from="1673935335593" duration="68000" />
+      <workItem from="1673935414740" duration="33000" />
+      <workItem from="1673935456350" duration="602000" />
+      <workItem from="1673936067598" duration="60000" />
+      <workItem from="1673936136040" duration="13824000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add three">
       <created>1672049409192</created>
@@ -92,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672131221144</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: reset component and add types">
+      <created>1672135269582</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672135269582</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +141,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: add three" />
     <MESSAGE value="feat: replace with next package" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: replace with next package" />
+    <MESSAGE value="feat: reset component and add types" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: reset component and add types" />
   </component>
 </project>

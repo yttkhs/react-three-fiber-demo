@@ -4,7 +4,7 @@ const Blob = dynamic(() => import('@/components/canvas/Blob'), { ssr: false })
 
 export default function Page(props) {}
 
-Page.canvas = (props) => <Blob route='/' position-y={-0.75} />
+Page.canvas = (props) => <Blob route='/' />
 
 export async function getStaticProps() {
   return { props: { title: 'Blob' } }
