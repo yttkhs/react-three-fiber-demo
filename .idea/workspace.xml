@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97c02ac2-3666-4386-8805-441360217ddc" name="変更" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/canvas/Edit.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/edit.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/canvas/Blob.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/canvas/Blob.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/canvas/Scene.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/canvas/Scene.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blob.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blob.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/canvas/Edit.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/canvas/Edit.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,24 +38,24 @@
     <option name="showLibraryContents" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "/Users/yuta/Repositories/github.com/takayuu/react-three-fiber-demo/src/pages",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "prettierjs.PrettierConfiguration.Package": "/Users/yuta/Repositories/github.com/takayuu/react-three-fiber-demo/node_modules/prettier",
-    "settings.editor.selected.configurable": "AtomSelectConfig",
-    "ts.external.directory.path": "/Users/yuta/Repositories/github.com/takayuu/react-three-fiber-demo/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/yuta/Repositories/github.com/takayuu/react-three-fiber-demo/src/pages&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/yuta/Repositories/github.com/takayuu/react-three-fiber-demo/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;AtomSelectConfig&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/yuta/Repositories/github.com/takayuu/react-three-fiber-demo/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/pages" />
@@ -109,7 +102,10 @@
       <workItem from="1673935414740" duration="33000" />
       <workItem from="1673935456350" duration="602000" />
       <workItem from="1673936067598" duration="60000" />
-      <workItem from="1673936136040" duration="13824000" />
+      <workItem from="1673936136040" duration="14668000" />
+      <workItem from="1674027262685" duration="1208000" />
+      <workItem from="1675067570632" duration="2390000" />
+      <workItem from="1675157445812" duration="2006000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add three">
       <created>1672049409192</created>
@@ -132,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672135269582</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: three dimensional logo">
+      <created>1673950226165</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673950226165</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +145,7 @@
     <MESSAGE value="feat: add three" />
     <MESSAGE value="feat: replace with next package" />
     <MESSAGE value="feat: reset component and add types" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: reset component and add types" />
+    <MESSAGE value="feat: three dimensional logo" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: three dimensional logo" />
   </component>
 </project>
