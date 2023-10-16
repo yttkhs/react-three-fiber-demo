@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97c02ac2-3666-4386-8805-441360217ddc" name="変更" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/canvas/Wave.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shaders/wave/fragment.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shaders/wave/vertex.glsl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/canvas/Edit.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/canvas/Edit.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/canvas/Blob.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blob.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/wave.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +26,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript JSX File" />
+        <option value="fs-template" />
+        <option value="shader-template" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -29,6 +40,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2J7rVFSogT0CICkIC7CK18d6xiZ" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -37,6 +51,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="sortByType" value="true" />
+    <option name="sortKey" value="BY_TYPE" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
@@ -44,6 +59,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/yuta/Repositories/github.com/takayuu/react-three-fiber-demo/src/pages&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -51,11 +67,20 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
     &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/yuta/Repositories/github.com/takayuu/react-three-fiber-demo/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;AtomSelectConfig&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/yuta/Repositories/github.com/takayuu/react-three-fiber-demo/node_modules/typescript/lib&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/yuta/Workspace/Repository/github.com/takayuu/react-three-fiber-demo/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.rcb.reactComponents" value="false" />
+        <entry key="com.haulmont.rcb.reactInspector" value="false" />
+        <entry key="com.haulmont.rcb.storybook" value="false" />
+      </map>
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/pages" />
@@ -106,6 +131,11 @@
       <workItem from="1674027262685" duration="1208000" />
       <workItem from="1675067570632" duration="2390000" />
       <workItem from="1675157445812" duration="2006000" />
+      <workItem from="1696904424959" duration="1032000" />
+      <workItem from="1696905468368" duration="6811000" />
+      <workItem from="1697294577287" duration="2000" />
+      <workItem from="1697417615707" duration="13000" />
+      <workItem from="1697417787364" duration="9592000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add three">
       <created>1672049409192</created>
