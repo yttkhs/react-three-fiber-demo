@@ -3,6 +3,9 @@ import { useFrame, useLoader } from '@react-three/fiber';
 import { Center } from '@react-three/drei';
 import { SVGLoader } from 'three-stdlib';
 import { Group } from 'three';
+import * as THREE from 'three';
+import vertexShader from '@/shaders/edit/vertex.glsl';
+import fragmentShader from '@/shaders/edit/fragment.glsl';
 
 export default function Edit({ route, ...props }) {
   const group = useRef<Group>(null);
@@ -42,8 +45,8 @@ export default function Edit({ route, ...props }) {
 function Shape({ shape, color }) {
   return (
     <mesh position={[0, 0, 0]} scale={0.01}>
-      <meshStandardMaterial attach='material' color={color} roughness={0.5} vertexColors={true} />
       <extrudeGeometry attach='geometry' args={[shape, { depth: 100 }]} />
+      <rawShaderMaterial attach='material' fragmentShader={fragmentShader} vertexShader={vertexShader} transparent />
     </mesh>
   );
 }

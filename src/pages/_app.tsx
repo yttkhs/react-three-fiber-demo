@@ -3,11 +3,23 @@ import dynamic from 'next/dynamic';
 import Header from '@/config';
 import Layout from '@/components/dom/Layout';
 import '@/styles/index.css';
+import { NextPage } from 'next';
+import { ReactElement, ReactNode } from 'react';
+import { AppProps } from 'next/app';
+
+type NextPageWithCanvas<P = {}, IP = P> = NextPage<P, IP> & {
+  canvas?: (page: ReactElement) => ReactNode;
+};
+
+type AppPropsWithCanvas = AppProps & {
+  Component: NextPageWithCanvas;
+};
 
 const Scene = dynamic(() => import('@/components/canvas/Scene'), { ssr: true });
 
-export default function App({ Component, pageProps = { title: 'index' } }) {
+export default function App({ Component, pageProps = { title: 'index' } }: AppPropsWithCanvas) {
   const ref = useRef();
+
   return (
     <>
       <Header title={pageProps.title} />

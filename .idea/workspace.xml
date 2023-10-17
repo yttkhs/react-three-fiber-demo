@@ -4,11 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97c02ac2-3666-4386-8805-441360217ddc" name="変更" comment="feat: add wave">
+    <list default="true" id="97c02ac2-3666-4386-8805-441360217ddc" name="変更" comment="refactor: run prettier">
+      <change afterPath="$PROJECT_DIR$/src/components/canvas/Torus.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/torus.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shaders/edit/fragment.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shaders/edit/vertex.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shaders/torus/fragment.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shaders/torus/vertex.glsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/canvas/Edit.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/canvas/Edit.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/canvas/Scene.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/canvas/Scene.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/canvas/Wave.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/canvas/Wave.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dom/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dom/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/wave.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/wave.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,14 +34,24 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="fs-template" />
         <option value="shader-template" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="commitMessagesMapping">
+      <RewordedCommitMessageMapping>
+        <option name="originalMessage" value="refactor: run prettier" />
+        <option name="rewordedMessage" value="refactor: run prettier" />
+      </RewordedCommitMessageMapping>
+    </option>
+    <option name="currentCommit" value="1" />
+    <option name="onto" value="871e70b970621f54f83cf8d657484222e30c4ea4" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -49,25 +72,27 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/yuta/Repositories/github.com/takayuu/react-three-fiber-demo/src/pages",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "prettierjs.PrettierConfiguration.Package": "/Users/yuta/Workspace/Repository/github.com/takayuu/react-three-fiber-demo/node_modules/prettier",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "/Users/yuta/Workspace/Repository/github.com/takayuu/react-three-fiber-demo/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/yuta/Workspace/Repository/github.com/takayuu/react-three-fiber-demo/src/shaders/torus&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/yuta/Workspace/Repository/github.com/takayuu/react-three-fiber-demo/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/yuta/Workspace/Repository/github.com/takayuu/react-three-fiber-demo/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -79,13 +104,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/shaders/torus" />
+      <recent name="$PROJECT_DIR$/src/shaders/edit" />
       <recent name="$PROJECT_DIR$/src/pages" />
     </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="yarn run dev" />
       <command value="yarn run lint" />
+      <command value="yarn run dev" />
     </option>
   </component>
   <component name="RunManager" selected="npm.lint">
@@ -131,10 +158,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.lint" />
         <item itemvalue="npm.eslint" />
         <item itemvalue="npm.prettier" />
-        <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +193,8 @@
       <workItem from="1697294577287" duration="2000" />
       <workItem from="1697417615707" duration="13000" />
       <workItem from="1697417787364" duration="10278000" />
-      <workItem from="1697510285272" duration="837000" />
+      <workItem from="1697510285272" duration="11832000" />
+      <workItem from="1697523626407" duration="14829000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add three">
       <created>1672049409192</created>
@@ -204,11 +232,38 @@
       <option name="project" value="LOCAL" />
       <updated>1697471537829</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="refactor: run prettier">
+      <option name="closed" value="true" />
+      <created>1697511157127</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697511157127</updated>
+    </task>
+    <task id="LOCAL-00007" summary="refactor: run prettier">
+      <option name="closed" value="true" />
+      <created>1697511172063</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697511172063</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: add three" />
@@ -216,6 +271,7 @@
     <MESSAGE value="feat: reset component and add types" />
     <MESSAGE value="feat: three dimensional logo" />
     <MESSAGE value="feat: add wave" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add wave" />
+    <MESSAGE value="refactor: run prettier" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: run prettier" />
   </component>
 </project>
