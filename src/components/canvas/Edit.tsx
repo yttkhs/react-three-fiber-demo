@@ -1,12 +1,12 @@
-import React, {useMemo, useRef} from 'react'
-import { useFrame, useLoader } from '@react-three/fiber'
-import { Center } from '@react-three/drei'
-import { SVGLoader } from 'three-stdlib'
-import {Group} from "three";
+import React, { useMemo, useRef } from 'react';
+import { useFrame, useLoader } from '@react-three/fiber';
+import { Center } from '@react-three/drei';
+import { SVGLoader } from 'three-stdlib';
+import { Group } from 'three';
 
 export default function Edit({ route, ...props }) {
-  const group = useRef<Group>(null)
-  const data = useLoader(SVGLoader, 'http://localhost:3030/img/logo.svg')
+  const group = useRef<Group>(null);
+  const data = useLoader(SVGLoader, 'http://localhost:3030/img/logo.svg');
 
   const shapes = useMemo(() => {
     return data.paths.flatMap((g, index) => {
@@ -15,18 +15,18 @@ export default function Edit({ route, ...props }) {
           shape,
           color: g.color,
           index,
-        }
-      })
-    })
-  }, [data])
+        };
+      });
+    });
+  }, [data]);
 
   useFrame(({ clock }, delta, frame) => {
     const t = clock.getElapsedTime();
 
     // group.current.rotation.y = Math.sin(t) * (Math.PI / 8)
     // group.current.rotation.x = Math.cos(t) * (Math.PI / 8)
-    group.current.rotation.z -= delta / 4
-  })
+    group.current.rotation.z -= delta / 4;
+  });
 
   return (
     <Center ref={group}>
@@ -36,7 +36,7 @@ export default function Edit({ route, ...props }) {
         ))}
       </group>
     </Center>
-  )
+  );
 }
 
 function Shape({ shape, color }) {
@@ -45,5 +45,5 @@ function Shape({ shape, color }) {
       <meshStandardMaterial attach='material' color={color} roughness={0.5} vertexColors={true} />
       <extrudeGeometry attach='geometry' args={[shape, { depth: 100 }]} />
     </mesh>
-  )
+  );
 }
