@@ -4,24 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97c02ac2-3666-4386-8805-441360217ddc" name="変更" comment="refactor: run prettier">
-      <change afterPath="$PROJECT_DIR$/src/components/canvas/Torus.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/torus.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shaders/edit/fragment.glsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shaders/edit/vertex.glsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shaders/torus/fragment.glsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shaders/torus/vertex.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="97c02ac2-3666-4386-8805-441360217ddc" name="変更" comment="feat: add torus">
+      <change afterPath="$PROJECT_DIR$/src/components/canvas/Ball.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ball.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shaders/ball/fragment.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shaders/ball/vertex.glsl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/canvas/Edit.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/canvas/Edit.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/canvas/Scene.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/canvas/Scene.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/canvas/Wave.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/canvas/Wave.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dom/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dom/Layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/wave.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/wave.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +24,7 @@
       <list>
         <option value="fs-template" />
         <option value="shader-template" />
+        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
       </list>
     </option>
@@ -81,7 +70,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/yuta/Workspace/Repository/github.com/takayuu/react-three-fiber-demo/src/shaders/torus&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/yuta/Workspace/Repository/github.com/takayuu/react-three-fiber-demo/src/shaders/ball&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -104,6 +93,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/shaders/ball" />
       <recent name="$PROJECT_DIR$/src/shaders/torus" />
       <recent name="$PROJECT_DIR$/src/shaders/edit" />
       <recent name="$PROJECT_DIR$/src/pages" />
@@ -194,7 +184,11 @@
       <workItem from="1697417615707" duration="13000" />
       <workItem from="1697417787364" duration="10278000" />
       <workItem from="1697510285272" duration="11832000" />
-      <workItem from="1697523626407" duration="14829000" />
+      <workItem from="1697523626407" duration="15325000" />
+      <workItem from="1697600706562" duration="4765000" />
+      <workItem from="1697689836757" duration="2230000" />
+      <workItem from="1697700364257" duration="19746000" />
+      <workItem from="1697860816672" duration="260000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add three">
       <created>1672049409192</created>
@@ -248,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697511172063</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: add torus">
+      <option name="closed" value="true" />
+      <created>1697538507560</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697538507560</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,6 +274,7 @@
     <MESSAGE value="feat: three dimensional logo" />
     <MESSAGE value="feat: add wave" />
     <MESSAGE value="refactor: run prettier" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: run prettier" />
+    <MESSAGE value="feat: add torus" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add torus" />
   </component>
 </project>
